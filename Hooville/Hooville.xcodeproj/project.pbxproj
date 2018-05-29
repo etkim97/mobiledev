@@ -1,0 +1,485 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4F54D15020901A5A00C59FFD /* NearbyTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F54D14F20901A5A00C59FFD /* NearbyTableViewController.swift */; };
+		4F54D15220901D2F00C59FFD /* NearbyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F54D15120901D2F00C59FFD /* NearbyTableViewCell.swift */; };
+		4F54D15420902ACF00C59FFD /* event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F54D15320902ACF00C59FFD /* event.swift */; };
+		4F57EAF0208443040021179D /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F57EAEF208443040021179D /* LoginViewController.swift */; };
+		4F57EAFD20845CF80021179D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4F57EAFC20845CF80021179D /* GoogleService-Info.plist */; };
+		4F57EAFF20845F540021179D /* eventItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F57EAFE20845F540021179D /* eventItem.swift */; };
+		4F57EB03208466BC0021179D /* MainTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F57EB02208466BC0021179D /* MainTableViewController.swift */; };
+		4F57EB05208467B50021179D /* MainTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F57EB04208467B50021179D /* MainTableViewCell.swift */; };
+		C52009AF2092C84F0069E8BB /* WriteReviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C52009AE2092C84F0069E8BB /* WriteReviewViewController.swift */; };
+		C539EE7920912A0A00F2415A /* ItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C539EE7820912A0A00F2415A /* ItemViewController.swift */; };
+		C539EE7B20912E3500F2415A /* ItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C539EE7A20912E3500F2415A /* ItemTableViewCell.swift */; };
+		C539EE7D2091345100F2415A /* review.swift in Sources */ = {isa = PBXBuildFile; fileRef = C539EE7C2091345100F2415A /* review.swift */; };
+		C551B96320843EAC00460A56 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C551B96220843EAC00460A56 /* AppDelegate.swift */; };
+		C551B96820843EAC00460A56 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C551B96620843EAC00460A56 /* Main.storyboard */; };
+		C551B96B20843EAC00460A56 /* Hooville.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C551B96920843EAC00460A56 /* Hooville.xcdatamodeld */; };
+		C551B96D20843EAC00460A56 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C551B96C20843EAC00460A56 /* Assets.xcassets */; };
+		C551B97020843EAC00460A56 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C551B96E20843EAC00460A56 /* LaunchScreen.storyboard */; };
+		C551B98320846B4000460A56 /* AddItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C551B98220846B3F00460A56 /* AddItemViewController.swift */; };
+		C557C8FA208FFA250083B0BB /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C557C8F9208FFA250083B0BB /* CreateAccountViewController.swift */; };
+		F64AFA638756B928FC5A2DA8 /* Pods_Hooville.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84E067E87D087D6CE656C398 /* Pods_Hooville.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2D61C99EE5A426D871877FE5 /* Pods-Hooville.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hooville.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Hooville/Pods-Hooville.debug.xcconfig"; sourceTree = "<group>"; };
+		4F54D14F20901A5A00C59FFD /* NearbyTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearbyTableViewController.swift; sourceTree = "<group>"; };
+		4F54D15120901D2F00C59FFD /* NearbyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearbyTableViewCell.swift; sourceTree = "<group>"; };
+		4F54D15320902ACF00C59FFD /* event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = event.swift; sourceTree = "<group>"; };
+		4F57EAEF208443040021179D /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		4F57EAFC20845CF80021179D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		4F57EAFE20845F540021179D /* eventItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = eventItem.swift; sourceTree = "<group>"; };
+		4F57EB02208466BC0021179D /* MainTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableViewController.swift; sourceTree = "<group>"; };
+		4F57EB04208467B50021179D /* MainTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableViewCell.swift; sourceTree = "<group>"; };
+		4F57EB0620846B8E0021179D /* AddItemViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddItemViewController.swift; sourceTree = "<group>"; };
+		84E067E87D087D6CE656C398 /* Pods_Hooville.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Hooville.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C52009AE2092C84F0069E8BB /* WriteReviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WriteReviewViewController.swift; sourceTree = "<group>"; };
+		C539EE7820912A0A00F2415A /* ItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemViewController.swift; sourceTree = "<group>"; };
+		C539EE7A20912E3500F2415A /* ItemTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemTableViewCell.swift; sourceTree = "<group>"; };
+		C539EE7C2091345100F2415A /* review.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = review.swift; sourceTree = "<group>"; };
+		C551B95F20843EAC00460A56 /* Hooville.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hooville.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C551B96220843EAC00460A56 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C551B96720843EAC00460A56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C551B96A20843EAC00460A56 /* Hooville.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Hooville.xcdatamodel; sourceTree = "<group>"; };
+		C551B96C20843EAC00460A56 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C551B96F20843EAC00460A56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C551B97120843EAC00460A56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C551B9772084479300460A56 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		C551B98220846B3F00460A56 /* AddItemViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddItemViewController.swift; sourceTree = "<group>"; };
+		C557C8F9208FFA250083B0BB /* CreateAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
+		D1C14DCC924EFEDC4581C349 /* Pods-Hooville.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hooville.release.xcconfig"; path = "Pods/Target Support Files/Pods-Hooville/Pods-Hooville.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C551B95C20843EAC00460A56 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F64AFA638756B928FC5A2DA8 /* Pods_Hooville.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4F57EAF320844E9E0021179D /* Recovered References */ = {
+			isa = PBXGroup;
+			children = (
+				C551B9772084479300460A56 /* GoogleService-Info.plist */,
+			);
+			name = "Recovered References";
+			sourceTree = "<group>";
+		};
+		5068B623B47C4704556D1096 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				84E067E87D087D6CE656C398 /* Pods_Hooville.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C551B95620843EAC00460A56 = {
+			isa = PBXGroup;
+			children = (
+				C551B96120843EAC00460A56 /* Hooville */,
+				C551B96020843EAC00460A56 /* Products */,
+				CEFF0FBB97485ED50D8FF0ED /* Pods */,
+				5068B623B47C4704556D1096 /* Frameworks */,
+				4F57EAF320844E9E0021179D /* Recovered References */,
+			);
+			sourceTree = "<group>";
+		};
+		C551B96020843EAC00460A56 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C551B95F20843EAC00460A56 /* Hooville.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C551B96120843EAC00460A56 /* Hooville */ = {
+			isa = PBXGroup;
+			children = (
+				C551B98220846B3F00460A56 /* AddItemViewController.swift */,
+				4F57EAFC20845CF80021179D /* GoogleService-Info.plist */,
+				C551B96220843EAC00460A56 /* AppDelegate.swift */,
+				C551B96620843EAC00460A56 /* Main.storyboard */,
+				C551B96C20843EAC00460A56 /* Assets.xcassets */,
+				C551B96E20843EAC00460A56 /* LaunchScreen.storyboard */,
+				C551B97120843EAC00460A56 /* Info.plist */,
+				C551B96920843EAC00460A56 /* Hooville.xcdatamodeld */,
+				4F57EAEF208443040021179D /* LoginViewController.swift */,
+				4F57EAFE20845F540021179D /* eventItem.swift */,
+				4F57EB02208466BC0021179D /* MainTableViewController.swift */,
+				4F57EB04208467B50021179D /* MainTableViewCell.swift */,
+				4F57EB0620846B8E0021179D /* AddItemViewController.swift */,
+				C557C8F9208FFA250083B0BB /* CreateAccountViewController.swift */,
+				4F54D14F20901A5A00C59FFD /* NearbyTableViewController.swift */,
+				4F54D15120901D2F00C59FFD /* NearbyTableViewCell.swift */,
+				4F54D15320902ACF00C59FFD /* event.swift */,
+				C539EE7820912A0A00F2415A /* ItemViewController.swift */,
+				C539EE7A20912E3500F2415A /* ItemTableViewCell.swift */,
+				C539EE7C2091345100F2415A /* review.swift */,
+				C52009AE2092C84F0069E8BB /* WriteReviewViewController.swift */,
+			);
+			path = Hooville;
+			sourceTree = "<group>";
+		};
+		CEFF0FBB97485ED50D8FF0ED /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2D61C99EE5A426D871877FE5 /* Pods-Hooville.debug.xcconfig */,
+				D1C14DCC924EFEDC4581C349 /* Pods-Hooville.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C551B95E20843EAC00460A56 /* Hooville */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C551B97420843EAC00460A56 /* Build configuration list for PBXNativeTarget "Hooville" */;
+			buildPhases = (
+				E347F184E70A3A78E101FE5C /* [CP] Check Pods Manifest.lock */,
+				C551B95B20843EAC00460A56 /* Sources */,
+				C551B95C20843EAC00460A56 /* Frameworks */,
+				C551B95D20843EAC00460A56 /* Resources */,
+				41309AED54D5574C45A12E42 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Hooville;
+			productName = Hooville;
+			productReference = C551B95F20843EAC00460A56 /* Hooville.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C551B95720843EAC00460A56 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Amanda Nguyen";
+				TargetAttributes = {
+					C551B95E20843EAC00460A56 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = C551B95A20843EAC00460A56 /* Build configuration list for PBXProject "Hooville" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C551B95620843EAC00460A56;
+			productRefGroup = C551B96020843EAC00460A56 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C551B95E20843EAC00460A56 /* Hooville */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C551B95D20843EAC00460A56 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C551B97020843EAC00460A56 /* LaunchScreen.storyboard in Resources */,
+				4F57EAFD20845CF80021179D /* GoogleService-Info.plist in Resources */,
+				C551B96D20843EAC00460A56 /* Assets.xcassets in Resources */,
+				C551B96820843EAC00460A56 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		41309AED54D5574C45A12E42 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Hooville/Pods-Hooville-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Hooville/Pods-Hooville-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E347F184E70A3A78E101FE5C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Hooville-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C551B95B20843EAC00460A56 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F57EAF0208443040021179D /* LoginViewController.swift in Sources */,
+				C539EE7D2091345100F2415A /* review.swift in Sources */,
+				4F57EAFF20845F540021179D /* eventItem.swift in Sources */,
+				4F54D15020901A5A00C59FFD /* NearbyTableViewController.swift in Sources */,
+				C551B96320843EAC00460A56 /* AppDelegate.swift in Sources */,
+				C52009AF2092C84F0069E8BB /* WriteReviewViewController.swift in Sources */,
+				C551B96B20843EAC00460A56 /* Hooville.xcdatamodeld in Sources */,
+				C539EE7920912A0A00F2415A /* ItemViewController.swift in Sources */,
+				C539EE7B20912E3500F2415A /* ItemTableViewCell.swift in Sources */,
+				C557C8FA208FFA250083B0BB /* CreateAccountViewController.swift in Sources */,
+				4F54D15420902ACF00C59FFD /* event.swift in Sources */,
+				4F54D15220901D2F00C59FFD /* NearbyTableViewCell.swift in Sources */,
+				C551B98320846B4000460A56 /* AddItemViewController.swift in Sources */,
+				4F57EB05208467B50021179D /* MainTableViewCell.swift in Sources */,
+				4F57EB03208466BC0021179D /* MainTableViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C551B96620843EAC00460A56 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C551B96720843EAC00460A56 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C551B96E20843EAC00460A56 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C551B96F20843EAC00460A56 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C551B97220843EAC00460A56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C551B97320843EAC00460A56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C551B97520843EAC00460A56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D61C99EE5A426D871877FE5 /* Pods-Hooville.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KJ74YV9PUG;
+				INFOPLIST_FILE = Hooville/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.virginia.cs4720.kimnguyen.Hooville3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C551B97620843EAC00460A56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D1C14DCC924EFEDC4581C349 /* Pods-Hooville.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KJ74YV9PUG;
+				INFOPLIST_FILE = Hooville/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.virginia.cs4720.kimnguyen.Hooville3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C551B95A20843EAC00460A56 /* Build configuration list for PBXProject "Hooville" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C551B97220843EAC00460A56 /* Debug */,
+				C551B97320843EAC00460A56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C551B97420843EAC00460A56 /* Build configuration list for PBXNativeTarget "Hooville" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C551B97520843EAC00460A56 /* Debug */,
+				C551B97620843EAC00460A56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C551B96920843EAC00460A56 /* Hooville.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C551B96A20843EAC00460A56 /* Hooville.xcdatamodel */,
+			);
+			currentVersion = C551B96A20843EAC00460A56 /* Hooville.xcdatamodel */;
+			path = Hooville.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C551B95720843EAC00460A56 /* Project object */;
+}

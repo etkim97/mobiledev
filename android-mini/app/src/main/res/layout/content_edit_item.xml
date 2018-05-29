@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="kimnguyen.cs4640.bucketlist.EditItemActivity"
+    tools:showIn="@layout/activity_edit_item">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text='@string/Name'
+        android:paddingStart="18dp"
+        android:paddingTop="2dp"
+        />
+
+    <EditText
+        android:id="@+id/editNameText"
+        android:layout_centerHorizontal="true"
+        android:layout_width="575dp"
+        android:layout_height="wrap_content"
+        android:paddingTop="30dp"
+        android:ems="10"
+        android:inputType="text"
+        android:layout_below="@+id/edittoolbar"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editNameText"
+        android:text='@string/Description'
+        android:paddingStart="18dp"
+        />
+
+    <EditText
+        android:id="@+id/editDescText"
+        android:layout_centerHorizontal="true"
+        android:layout_width="575dp"
+        android:layout_height="wrap_content"
+        android:paddingTop="30dp"
+        android:ems="10"
+        android:inputType="text"
+        android:layout_below="@id/editNameText"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editDescText"
+        android:text='@string/Latitude'
+        android:paddingStart="18dp"
+        />
+
+    <EditText
+        android:id="@+id/editLatText"
+        android:layout_centerHorizontal="true"
+        android:layout_width="575dp"
+        android:layout_height="wrap_content"
+        android:paddingTop="30dp"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:layout_below="@+id/editDescText"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editLatText"
+        android:text='@string/Longitude'
+        android:paddingStart="18dp"
+        />
+
+    <EditText
+        android:id="@+id/editLongText"
+        android:layout_centerHorizontal="true"
+        android:layout_width="575dp"
+        android:layout_height="wrap_content"
+        android:paddingTop="30dp"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:layout_below="@+id/editLatText"
+        />
+
+    <CalendarView
+        android:id="@+id/editsimpleCalendarView"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editLongText"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:onClick="editSubmit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="@string/Edit"
+        android:layout_below="@+id/editsimpleCalendarView"
+        />
+</RelativeLayout>
+

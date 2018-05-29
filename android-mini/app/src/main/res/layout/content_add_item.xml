@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="kimnguyen.cs4640.bucketlist.AddItemActivity"
+    tools:showIn="@layout/activity_add_item">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text='@string/Name'
+        android:paddingStart="18dp"
+        android:paddingTop="2dp"
+        />
+
+    <EditText
+        android:id="@+id/NameText"
+        android:layout_centerHorizontal="true"
+        android:layout_width="575dp"
+        android:layout_height="wrap_content"
+        android:paddingTop="30dp"
+        android:ems="10"
+        android:inputType="text"
+        android:layout_below="@+id/toolbar"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/NameText"
+        android:text='@string/Description'
+        android:paddingStart="18dp"
+        />
+
+    <EditText
+        android:id="@+id/DescText"
+        android:layout_centerHorizontal="true"
+        android:layout_width="575dp"
+        android:layout_height="wrap_content"
+        android:paddingTop="30dp"
+        android:ems="10"
+        android:inputType="text"
+        android:layout_below="@id/NameText"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/DescText"
+        android:text='@string/Latitude'
+        android:paddingStart="18dp"
+        />
+
+    <EditText
+        android:id="@+id/LatText"
+        android:layout_centerHorizontal="true"
+        android:layout_width="575dp"
+        android:layout_height="wrap_content"
+        android:paddingTop="30dp"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:layout_below="@+id/DescText"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/LatText"
+        android:text='@string/Longitude'
+        android:paddingStart="18dp"
+        />
+
+    <EditText
+        android:id="@+id/LongText"
+        android:layout_centerHorizontal="true"
+        android:layout_width="575dp"
+        android:layout_height="wrap_content"
+        android:paddingTop="30dp"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:layout_below="@+id/LatText"
+        />
+
+    <CalendarView
+        android:id="@+id/simpleCalendarView"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/LongText"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:onClick="submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="@string/Submit"
+        android:layout_below="@+id/simpleCalendarView"
+        />
+</RelativeLayout>
